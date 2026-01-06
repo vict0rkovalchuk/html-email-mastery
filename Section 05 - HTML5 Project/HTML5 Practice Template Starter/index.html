@@ -37,6 +37,40 @@
     img {
       max-width: 100%;
     }
+    .three-columns {
+      width: 29.3%;
+      padding: 5% 2% 6%;
+      text-align: center;
+    }
+    .three-columns img {
+      max-width: 135px;
+    }
+    h2 {
+      font-weight: 900;
+      font-size: 28px;
+      letter-spacing: 1px;
+      margin: 20px 0 8px 0;
+    }
+    p {
+      line-height: 26px;
+      padding-bottom: 15px;
+    }
+    .btn {
+      background-color: #37a28f;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 14px;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      border-radius: 6px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+      transition: all 0.4s;
+    }
+    .btn:hover {
+      background-color: #3db5a0;
+      color: #fff;
+    }
   </style>
 </head>
 <body>
@@ -59,6 +93,21 @@
         class="banner"
       >
     </a>
+
+    <div class="three-columns">
+      <a href="https://example.com" target="_blank">
+        <img 
+          src="https://mcusercontent.com/474f5b70c3b324277323d4c42/images/50164d13-9cac-8682-ceb8-301a69a3c484.png" 
+          alt="Mouse" 
+          title="Mouse"
+        >
+      </a>
+      <h2>Email Development</h2>
+      <p>There are many different email clients to consider when developing your email template.</p>
+      <div class="button-holder">
+        <a href="https://example.com" target="_blank" class="btn">Learn More</a>
+      </div>
+    </div>
   </div>
 </body>
 </html>
