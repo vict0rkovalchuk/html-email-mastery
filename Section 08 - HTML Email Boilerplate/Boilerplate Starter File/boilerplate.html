@@ -45,9 +45,24 @@
         color: inherit !important;
         text-decoration: inherit !important;
       }
+
+      @media screen and (max-width: 599.98px) {
+        .background-test {
+          background-color: #ff0000 !important;
+        }
+        .font-size-test {
+          font-size: 40px !important;
+        }
+      }
+
+      @media screen and (max-width: 399.98px) {
+
+      }
     </style>
   </head>
   <body>
-    <h1>LALALA</h1>
+    <div class="background-test" style="padding: 12px;">
+      <h1 class="font-size-test" style="text-align: center;">Media Query Test</h1>
+    </div>
   </body>
 </html>
