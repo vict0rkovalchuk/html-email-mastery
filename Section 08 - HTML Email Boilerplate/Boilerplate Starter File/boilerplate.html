@@ -8,6 +8,7 @@
     <meta name="x-apple-disable-message-reformatting">
     <meta name="color-scheme" content="light dark">
     <meta name="supported-color-schemes" content="light dark">
+    <title>HTML Email Template Boilerplate</title>
     <!-- [if mso]> 
       <noscript>
         <xml>
@@ -62,6 +63,28 @@
       @media screen and (max-width: 399.98px) {
 
       }
+
+      :root {
+        color-scheme: light dark;
+        supported-color-schemes: light dark;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body, table {
+          background: #2d2d2d !important;
+          color: #fff !important;
+        }
+        .darkmode-transparent {
+          background-color: transparent !important;
+        }
+        [data-ogsc] body, table {
+          background: #2d2d2d !important;
+          color: #fff !important;
+        }
+        [data-ogsc] .darkmode-transparent {
+          background-color: transparent !important;
+        }
+      }
     </style>
 
     <!-- [if mso]> 
@@ -100,8 +123,10 @@
             <td style="padding: 0;">
               <table width="100%" style="border-spacing: 0;" role="presentation">
                 <tr>
-                  <td style="padding: 10px; background-color: #c0c0ff;">
+                  <td style="padding: 10px;">
                     <h1 style="text-align: center; font-size: 30px; margin: 0;">LALALA</h1>
+                    <h2 style="text-align: center; font-size: 26px; margin: 0;">LALALA</h2>
+                    <h3 style="text-align: center; font-size: 22px; margin: 0;">LALALA</h3>
                   </td>
                 </tr>
               </table>
